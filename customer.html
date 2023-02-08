@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Chikomborero Machache">
+	<meta name="description" content="This page contains all info about Chiko">
+	<title>Customer Details</title>
+</head>
+<body bgcolor="#555">
+	<div align="center">
+		<h1>Customer Details</h1>
+	</div>
+	<form action="customer_details.php" method="post">
+		<table border="1" align="center">
+			<tr>
+				<td><label>First Name</label></td>
+				<td><input type="text" name="first_name"></td>
+			</tr>
+			<tr>
+				<td><label>Last Name</label></td>
+				<td><input type="text" name="last_name"></td>
+			</tr>
+			<tr>
+				<td><label>Date</label></td>
+				<td><input type="date" name="my_date"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><b>
+					<input type="file" name="file_upload" value="Select a file to upload" id="file_upload" style="font-size: 20px">
+				</b></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<input type="submit" name="save" value="SUBMIT" style="font-size: 20px">
+				</td>
+			</tr>
+			
+		</table>
+	</form>
+</body>
+</html>
